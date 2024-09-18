@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>AHR999 指标计算器</title>
+</head>
+<body>
+    <h1>AHR999 指标计算</h1>
+    <form action="/plot" method="post">
+        <label for="symbol">标的符号 (例如 BTC-USD):</label><br>
+        <input type="text" id="symbol" name="symbol"><br><br>
+
+        <label for="start_date">起始日期 (例如 2010-01-01):</label><br>
+        <input type="text" id="start_date" name="start_date"><br><br>
+
+        <label for="title">标题 (例如 比特币):</label><br>
+        <input type="text" id="title" name="title"><br><br>
+
+        <input type="submit" value="提交">
+    </form>
+</body>
+</html>
